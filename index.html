@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Corazón es Tuyo</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+      
+        <button id="toggleDarkMode" class="floating-button">
+            <i class="ri-sun-line"></i>
+        </button>
+
+        
+        <section class="section active" id="inicio">
+            <h1>KAUANE ❤️</h1>
+            <p>"Algumas pessoas são como estrelas: você nem sempre as vê, mas sabe que estão lá, iluminando tudo à distância. Você é assim pra mim."</p>
+            <button class="btn" onclick="showSection('declaracion')">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#ffffff"
+                    fill="none">
+                    <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                        stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg> Seguinte </button>
+        </section>
+
+        
+        <section class="section" id="declaracion">
+            <h1>Você sabe o quanto você é especial, Kauane ?</h1>
+            <p>"Você é capaz de deixar até os dias mais comuns parecerem extraordinários."</p>
+            <div class="button-container">
+                <button class="btn" onclick="showSection('aceptacion')">Sim 💖</button>
+                <button class="btn" id="btnNo">Não 😢</button>
+            </div>
+        </section>
+
+        
+        <section class="section" id="aceptacion">
+            <h1>Sabia que diria sim kkk não tinha escapatória 🤣</h1>
+            <div class="carta">
+                <h1>Para Você</h1>
+                <p>Se eu pudesse escrever em estrelas o quanto você é importante, o céu noturno não teria espaço suficiente. Você é aquela pessoa rara que transforma dias comuns em dias extraordinários ❤️
+
+Lembra daquela vez que você me contou sobre você, um pouco da sua vida, um pouco sobre a Kaune apaixonada ? Foi aí que eu entendi: você não é só ✨ especial ✨. Você é como a frase sublinhada a lápis no livro favorito "Todas As Suas "Im" Perfeições", o tipo de amor que os poetas tentam descrever e nunca acertam. Você é aquela pessoa que faz os outros acreditarem em coisas boas, mesmo quando tudo parece ruim, triste, acabado.  
+
+Nunca esqueça que:  
+"Você é a risada que contagia a sala inteira."  
+"O abraço que aquece até a alma mais cansada."  
+"O livro que eu sempre vou querer reler."  
+
+Não estou escrevendo isso só para animar você hoje. O mundo precisa saber que existem pessoas como você, e eu tenho muita sorte por ter você na minha pequena e humilde história história.<br>
+                    - </p>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
